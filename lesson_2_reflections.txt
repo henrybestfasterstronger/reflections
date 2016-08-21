@@ -16,13 +16,45 @@ During developing the change, we can add file to the staging whenever changes ar
 How can you use the staging area to make sure you have one commit per logical
 change?
 
+Can use git diff --staged to check the changes between staging area and the last commit.
+The logical change is supposed to appear.
+
+
+
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
 
+When we want to keep current version clean and try a new version we create a new branch.
+
+
+
 How do the diagrams help you visualize the branch structure?
+
+I would know how other branches are insynchronize with the master branch.
+
+
 
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
 
+By comparing with 2 branches' common ancestor commit, the added codes will be added and the deleted code will be removed.
+In the diagram way it is easier to understand.
+
+
 What are the pros and cons of Git’s automatic merging vs. always doing merges
 manually?
+
+Manual
+pros: 
+as a subject expert it can be quick to resolve the conflicts from merges
+can be quite sure the codes can compile.
+cons:
+time consumed in resolving the conflicts from merge.
+
+Auto
+pros:
+save time
+cons:
+possible to be errorneous
+
+
